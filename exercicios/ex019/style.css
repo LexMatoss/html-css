@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Harry';
+    src: url(font/HARRYP__.TTF) format(Truetype);
+}
+
+/*
+em HTML é id = em CSS é # (só pode 1 elemento)
+em HTML é class = em CSS é . (pode varios elementos)
+*/
+
+body {
+    background-image: linear-gradient(to right, #04220C,#297738);
+    font-family: sans-serif;
+}
+h1 {
+    color: #179617;
+    font-family: 'Harry';
+    font-size: 3em;
+}
+
+h1#principal {
+
+    text-align: center;
+    font-family: 'Harry';
+    font-size: 5em;
+    color: #168a16;
+
+}
+
+h2 {
+    color: #168a16;
+    font-size: 2em;
+    font-family: 'Harry';
+}
+
+.basico {
+
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+
+.intermediario {
+
+    color: rgb(251, 255, 0);
+}
+
+.avancado {
+
+    color: rgb(192, 0, 0);
+}
+
+p {
+    color: white;
+}

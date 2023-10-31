@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+        }
+
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px;
+            box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.411);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            box-shadow: -3px 5px 9px 0px rgba(0, 0, 0, 0.514);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: -3px 5px 9px 0px rgba(0, 0, 0, 0.514);
+            border-radius: 10px 40px;
+        }
+
+        article > aside {
+            background-color: rgb(97, 97, 97);
+            border-radius: 5px;
+        }
+
+
+        nav {
+            background-color: rgb(46, 46, 46);
+            padding: 4px;
+            text-align: center;
+            box-shadow: -3px 5px 9px 0px rgba(0, 0, 0, 0.514);
+            
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="caixa01.html">Caixa 1</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, illum voluptatum numquam sint laboriosam necessitatibus vero quae odio odit quas ea corrupti cum quibusdam, nemo obcaecati, rerum earum fuga fugit.</p>
+                <aside>
+                    <p>Artigo escrito por Alexandre Matos</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Curso em Video</p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+</body>
+</html>
