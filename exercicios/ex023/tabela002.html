@@ -27,9 +27,18 @@
             padding: 10px;
         }
 
-        thead {
+        thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1*/
+            background-color: lightgrey;
+            font-weight: bold;
+        }
+
+        tbody > tr:nth-child(even) { /*2n*/
+            text-decoration: underline;
         }
 
         td.num {
